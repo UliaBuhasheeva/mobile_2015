@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="horizontal_layout">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+
+    </style>
+    <style name="digit_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:textColor">#ffff00</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">#00bfff</item>
+        <item name="android:layout_margin">2dp</item>
+        <item name="android:textSize">40dp</item>
+    </style>
+    <style name="operation_button" parent="digit_button">
+
+    </style>
+</resources>
